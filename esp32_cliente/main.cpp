@@ -25,9 +25,9 @@ bool isPressed = false;       // Indica si el pulsador está actualmente presion
 unsigned long lastInputTime = 0; // Tiempo de la última entrada Morse
 
 // Configuración de Wi-Fi
-const char *ssid = "";  // Nombre de la red Wi-Fi
-const char *password = "";  // Contraseña de la red Wi-Fi
-const char *serverIP = "";  // IP de la Raspberry Pi
+const char ssid = "";  // Nombre de la red Wi-Fi
+const char password = "";  // Contraseña de la red Wi-Fi
+const char serverIP = "";  // IP de la Raspberry Pi
 const int serverPort = 12500;  // Puerto para la conexión
 bool connected = NULL; // Indica si el cliente está conectado al servidor
 
